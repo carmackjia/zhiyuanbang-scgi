@@ -118,7 +118,7 @@ def main(handler=DemoHandler):
     max_children = 5    # scgi default
     uid = "nobody"
     port = 4000
-    host = "127.0.0.1"
+    host = "0.0.0.0"
     try:
         opts, args = getopt.getopt(sys.argv[1:], 'FP:l:m:p:u:')
     except getopt.GetoptError, exc:
