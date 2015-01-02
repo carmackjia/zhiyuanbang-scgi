@@ -114,7 +114,7 @@ def main(handler=DemoHandler):
     nofork = 0
     global pidfilename
     pidfilename = "/var/tmp/quixote-scgi.pid"
-    logfilename = "/var/tmp/quixote-scgi.log"
+    logfilename = "/dev/stdout"
     max_children = 5    # scgi default
     uid = "nobody"
     port = 4000
